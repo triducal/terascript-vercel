@@ -12,7 +12,7 @@ const buttonVariants = cva(
         green: "bg-green-400 border-b-4 border-green-500 text-primary-foreground active:border-b-0 transition-all",
         blue: "bg-blue-400 border-b-4 border-blue-500 text-primary-foreground active:border-b-0 transition-all",
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        ghost: "bg-transparent text-slate-600 hover:text-slate-800"
+        ghost: "bg-transparent text-slate-600 hover:text-slate-800 transition-all"
       },
       size: {
         default: "h-10 px-4 py-2",
